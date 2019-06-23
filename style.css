@@ -1,0 +1,951 @@
+
+@font-face {
+  font-family: wsfont;
+  src: url("./fonts/matthan sans regular.ttf"),
+       url("./fonts/matthan sans regular.ttf")format('truetypecollection');
+}
+
+
+body {
+  font-family: wsfont;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+/*  quote page styling */
+
+#quotepage {
+background: #BBA47A;}
+
+
+
+
+/*  quote page styling */
+
+
+
+
+
+/* ---------------------------- HEADER DESKTOP ----------------------------  */
+
+
+
+#wrapper_header {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#logo img{
+  height: auto;
+  width: 25%;
+}
+
+#login {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+#login_button {
+  border: 4px #1E4A5E solid;
+  font-size: 35px;
+  background: transparent;
+  padding: 3px 20px 3px 20px;
+  font-family: wsfont;
+  color: #1E4A5E;
+}
+
+#login_button:hover {
+  color: #BBA47A;
+  border-color: #BBA47A;
+  cursor: pointer;
+}
+
+
+nav {
+  padding-bottom: 40px;
+  display: inline-block;
+  width: 100%;
+  height: 200px;}
+
+nav ul {
+  position: absolute;
+  list-style: none;
+  display: inline-block;
+  right: 5%;
+  top: 155px;
+}
+nav ul li {
+display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: wsfont;
+  font-weight: 100;
+  color: #1E4A5E;
+  font-size: 40px;
+  padding-right: 52px;
+}
+
+nav ul li a:hover {
+  color: #BBA47A;
+}
+
+#banner_wrapper{
+  background: url('./img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+#banner_text {
+  width: 100%;
+  height: auto;
+}
+#part_one {
+  font-size: 90px;
+  color: white;
+  position: absolute;
+  top: 100;
+  left: 20%;
+}
+
+#part_two{
+  font-size: 90px;
+  color: white;
+  position: absolute;
+  top: 200;
+  left: 40%;
+}
+
+#get_a_quote {
+  position: absolute;
+  top: 700;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#get_a_quote_button {
+  font-size: 50px;
+  font-family: wsfont;
+  background white;
+  border: 2px white solid;
+  border-radius: 20px;
+  padding: 2 30 2 30;
+  color: #1E4A5E;
+  opacity: 0.5;
+}
+#get_a_quote_button:hover {
+  opacity: 1;
+  cursor:pointer;
+}
+
+/* ---------------------------- HEADER DESKTOP ----------------------------  */
+
+
+
+/* ---------------------------- ABOUT SECTION DESKTOP ----------------------------  */
+
+  #about_section {
+    height: auto;
+    width: 100%;
+  }
+
+  #about_title {
+    font-size: 70px;
+    color: #1E4A5E;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: wsfont;
+    letter-spacing: 2px;
+  }
+
+  #about_section img {
+    opacity: 0.25;
+    height: 60px;
+    padding-left: 20px;
+  }
+  #about_text {
+    text-align: center;
+    font-size: 50px;
+    color: #BBA47A;
+    opacity: 0.75;
+    padding: 10% 20% 10% 20%;
+  }
+
+
+/* ---------------------------- ABOUT SECTION DESKTOP ----------------------------  */
+
+/* ---------------------------- GET ASSISTANCE SECTION DESKTOP ----------------------------  */
+  #get_assistance {
+    background: url('./img/get_assistance_image.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+  }
+
+  #get_assistance_title {
+    width: 100%;
+    font-size: 50px;
+    font-family: wsfont;
+    color: white;
+    text-align: center;
+    top: 90;
+    position: absolute;
+  }
+
+
+  #get_assistance_text {
+    width: 100%;
+    font-size: 80px;
+    font-family: wsfont;
+    color: white;
+    text-align: center;
+    margin-left: -20%;
+    top: 300;
+    position: absolute;
+  }
+
+  #get_assistance_CTA {
+    width: 100%;
+    font-family: wsfont;
+    color: white;
+    text-align: center;
+    margin-left: -20%;
+    top: 600;
+    position: absolute;
+  }
+
+  #get_assistance_button {
+    border: 2px white solid;
+    background: white;
+    font-size: 60px;
+    color: #1E4A5E;
+    font-family: wsfont;
+    padding: 5 30 5 30;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  #get_assistance_button:hover {
+    opacity: 1;
+    cursor:pointer;
+  }
+
+
+
+/* ---------------------------- GET ASSISTANCE SECTION DESKTOP ----------------------------  */
+
+
+/* ---------------------------- COVERAGES SECTION DESKTOP ----------------------------  */
+
+  #coverages {
+    width: 100%;
+    height: 2556px;
+    padding-top: 40px;
+    overflow: hidden;
+  }
+
+  #coverages_title {
+    font-size: 70px;
+    color: #1E4A5E;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: wsfont;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  #coverages_title img {
+      opacity: 0.25;
+      height: 60px;
+      padding-left: 20px;
+  }
+
+
+        /* ================================  SERVICES / COVERAGES ==================================== */
+        /* ================================  SERVICES / COVERAGES ==================================== */
+
+        .service_title {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 100px;
+          color: white;
+          position: absolute;
+          text-align: center;
+
+        }
+        .coverage_description {
+          height: 600px;
+          background: black;
+          opacity: 0;
+          color: #BBA47A;
+          transition:.25s ease-in-out;
+          z-index: 100;
+        }
+/* ====== ALL OF THE VARIOUS HOVER STATES ======*/
+/* ====== ALL OF THE VARIOUS HOVER STATES ======*/
+/* ====== ALL OF THE VARIOUS HOVER STATES ======*/
+        #primary_liability:hover .coverage_description{
+          opacity: 0.9!important;
+          transition: .25s ease-in-out;
+          z-index: 100;
+        }
+
+        #cargo:hover .coverage_description{
+          opacity: 0.9!important;
+          transition: .25s ease-in-out;
+          z-index: 100;
+        }
+
+        #physical_damage:hover .coverage_description{
+          opacity: 0.9!important;
+          transition: .25s ease-in-out;
+          z-index: 100;
+        }
+
+        #general_liability:hover .coverage_description{
+          opacity: 0.9!important;
+          transition: .25s ease-in-out;
+          z-index: 100;
+        }
+
+        #nontrucking_liability:hover .coverage_description{
+          opacity: 0.9!important;
+          transition: .25s ease-in-out;
+          z-index: 100;
+        }
+
+        #workers_compensation:hover .coverage_description{
+          opacity: 0.9!important;
+          transition: .25s ease-in-out;
+          z-index: 100;
+        }
+
+        #occupational_accident:hover .coverage_description{
+          opacity: 0.9!important;
+          transition: .25s ease-in-out;
+          z-index: 100;
+        }
+
+        #roadside_assistance:hover .coverage_description{
+          opacity: 0.9!important;
+          transition: .25s ease-in-out;
+          z-index: 100;
+        }
+/* ====== ALL OF THE VARIOUS HOVER STATES ======*/
+/* ====== ALL OF THE VARIOUS HOVER STATES ======*/
+/* ====== ALL OF THE VARIOUS HOVER STATES ======*/
+
+        .coverage_description p {
+          padding-left: 50px;
+          padding-right: 50px;
+          font-size: 150%;
+          top: 50%;
+          transform: translateY(-50%);
+          position: absolute;
+          text-align: center;
+        }
+        #primary_liability {
+          width: 50%;
+          float: left;
+          height: 600px;
+          background: url('./img/service_one.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+          z-index: 100;
+        }
+
+
+        #cargo {
+          width: 50%;
+          float: right;
+          height: 600px;
+          background: url('./img/service_two.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+          z-index: 100;
+        }
+
+
+        #physical_damage {
+          width: 50%;
+          float: left;
+          height: 600px;
+          background: url('./img/service_three.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+        }
+
+
+        #general_liability {
+          width: 50%;
+          float: left;
+          height: 600px;
+          background: url('./img/service_four.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+        }
+
+
+        #nontrucking_liability {
+          width: 50%;
+          float: left;
+          height: 600px;
+          background: url('./img/service_five.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+        }
+
+        #workers_compensation {
+          width: 50%;
+          float: left;
+          height: 600px;
+          background: url('./img/service_six.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+        }
+
+
+        #occupational_accident {
+          width: 50%;
+          float: left;
+          height: 600px;
+          background: url('./img/service_seven.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+        }
+
+
+        #roadside_assistance {
+          width: 50%;
+          float: left;
+          height: 600px;
+          background: url('./img/service_eight.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+        }
+
+
+
+        /* ================================  SERVICES / COVERAGES ==================================== */
+        /* ================================  SERVICES / COVERAGES ==================================== */
+
+/* ---------------------------- COVERAGES SECTION DESKTOP ----------------------------  */
+
+/* ---------------------------- CONTACT FORM SECTION DESKTOP ----------------------------  */
+
+        .form_field {
+        width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        border: none;
+        font-size: 30px;
+        opacity: 0.7;
+        }
+
+
+        .form_button {
+          width: 30%;
+          height: auto;
+          color: #949494;
+          padding: 10px;
+          margin-top: 30px;
+          margin-bottom: 10px;
+          border-radius: 15px;
+          border: none;
+          font-size: 30px;
+          opacity: 0.7;
+          margin-left: 50%;
+          transform: translateX(-50%);
+          }
+
+          .form_button:hover {
+            opacity: 1;
+            color: #1E4A5E;;
+          }
+
+        #contact_form {
+          background:#1E4A5E;
+          height: 1200px;
+          width: auto;
+        }
+        #contact_form_title {
+          padding-top:75px;
+        }
+        #contact_form_title p {
+          font-size: 80px;
+          font-family: wsfont;
+          color: white;
+          text-align: center;
+        }
+        #contact_form_title img {
+          margin-left: 5%;
+          transform:translateX(-50%);
+          height: 60px;
+        }
+
+        #contact_form_inner {
+          width: 100%;
+          height: auto;
+          padding-top: 30px;
+        }
+
+        form {
+          margin-left: 50%;
+          transform: translateX(-50%);
+        }
+
+        #contact_form_info {
+          width: 96%;
+          color: white;
+          font-family: mainfont;
+          font-size: 30px;
+          margin: 2%;
+          margin-top: 5%;
+          display: inline-flex;
+          text-align: center;
+          position: relative;
+        }
+
+        #address{
+        left: 10%;
+        position: absolute;
+        font-family: wsfont;
+        font-size: 30px;
+        }
+        #numbers{
+        right: 10%;
+        position: absolute;
+        font-family: wsfont;
+        font-size: 30px;
+        text-align: right;
+        }
+        #office{
+          color: white;
+        }
+        #mobile{
+          color: white;
+        }
+        #office:hover{
+          color: #94D8FB;
+        }
+        #mobile:hover{
+          color: #94D8FB;
+        }
+        #copyright {
+          text-align: center;
+          margin-top: 80px;
+          font-family: arial;
+        }
+
+/* ---------------------------- CONTACT FORM SECTION DESKTOP ----------------------------  */
+
+
+
+
+
+
+
+
+
+/* ---------------  MEDIA QUERIES ---------------------  */
+
+@media (min-width: 700px) and (max-width: 1100px) {
+
+  #address{
+  left: 3%;
+  position: absolute;
+  font-family: wsfont;
+  font-size: 30px;
+  }
+  #numbers{
+  right: 3%;
+  position: absolute;
+  font-family: wsfont;
+  font-size: 30px;
+  text-align: right;
+  }
+
+
+  #copyright {
+    text-align: center;
+    margin-top: 150px;
+    font-family: arial;}
+
+    .service_title p {
+    font-size: 60px !important;
+  }
+
+  nav ul {
+    right: 3;
+  }
+
+  #about_text {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 700px) and (max-width: 950px) {
+
+  nav ul li a {
+    font-size: 35px;
+  }
+
+  #part_one {
+    font-size: 70px;
+  }
+  #part_two {
+    font-size: 70px;
+  }
+  #get_assistance_text {
+    font-size: 68px;
+  }
+  #address {
+    font-size: 22px;
+  }
+  #numbers {
+    font-size: 22px;
+  }
+  .coverage_description p {
+    padding-left: 10;
+    padding-right: 10;
+    font-size: 111%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    text-align: center;
+}
+.form_button {
+  font-size: 20px;
+}
+}
+
+
+@media (min-width: 700px) and (max-width: 1080px) {
+
+  #coverages {
+    height: 2510px;
+  }
+}
+
+@media (min-width:100px) and (max-width:699px){
+
+
+
+    #mobile-navi{
+      background: url('./img/menu_icon.png');
+      height: 50px;
+      background-size: contain;
+      width: 50px;
+      position: absolute;
+      left: 80%;
+      top: 10px;
+    }
+
+    nav ul{
+     position: initial;
+     display: none;
+     height: 525px;
+     width: 100%;
+     background: white;
+     z-index: 1;
+     position: relative;
+     right: initial;
+     top: initial;
+   }
+
+   nav {
+     height: 75px;
+   }
+
+   .open {
+     display: block;
+   }
+
+   nav ul li {
+     padding: 0;
+     display: block;
+     width: 100%;
+     margin-top: 20px;
+   }
+   nav ul li a {
+     padding: 0;
+     display: inline-block;
+     margin-left: 50%;
+     transform: translateX(-50%);
+     margin-top: 20px;
+   }
+
+    #login {
+      position: absolute;
+      top: 20px;
+      right: 50%;
+      transform: translateX(50%);
+    }
+    #login_button {
+      border: 4px #1E4A5E solid;
+      font-size: 20px;
+      background: transparent;
+      padding: 3px 20px 3px 20px;
+      font-family: wsfont;
+      color: #1E4A5E;
+    }
+/*=========================================  */
+
+#part_one {
+  font-size: 50px;
+  left: 10%;
+}
+
+#part_two {
+  font-size: 50px;
+  top: 180;
+  left: 15%;
+}
+
+#get_a_quote_button {
+  font-size: 28px;
+}
+
+#about_text {
+  font-size: 18px;
+}
+
+#get_assistance {
+  height: 400px;
+}
+
+#get_assistance_title {
+
+  font-size: 30px;
+}
+
+#get_assistance_text {
+  font-size: 35px;
+  top: 200;
+}
+
+
+#get_assistance_button {
+  font-size: 32px;
+}
+
+#get_assistance_CTA {
+  margin-left: initial;
+  top: 300;
+}
+
+.service_title {
+  font-size: 30px;
+}
+
+
+
+
+.coverage_description {
+  height: 300px;
+  background: black;
+  opacity: 0;
+  color: #BBA47A;
+  transition:.25s ease-in-out;
+  z-index: 100;
+}
+
+
+.coverage_description p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  text-align: center;
+}
+#primary_liability {
+  width: 100%;
+  float: initial;
+  height: 300px;
+  background: url('./img/service_one.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 100;
+}
+
+
+#cargo {
+  width: 100%;
+  float: initial;
+  height: 300px;
+  background: url('./img/service_two.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 100;
+}
+
+
+#physical_damage {
+  width: 100%;
+float: initial;
+  height: 300px;
+  background: url('./img/service_three.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+#general_liability {
+  width: 100%;
+float: initial;
+  height: 300px;
+  background: url('./img/service_four.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+#nontrucking_liability {
+  width: 100%;
+  float: initial;
+  height: 300px;
+  background: url('./img/service_five.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#workers_compensation {
+  width: 100%;
+  float: initial;
+  height: 300px;
+  background: url('./img/service_six.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+#occupational_accident {
+  width: 100%;
+  float: initial;
+  height: 300px;
+  background: url('./img/service_seven.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+#roadside_assistance {
+  width: 100%;
+  float: initial;
+  height: 300px;
+  background: url('./img/service_eight.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#coverages {
+  height: 2500px;
+}
+
+#contact_form_title p {
+  font-size: 58px;
+}
+
+#contact_form_title img {
+  margin-left: 12%;
+}
+
+
+.form_field {
+  font-size: 19px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.form_button {
+  width: 50%;
+  font-size: 14px;
+}
+
+#contact_form {
+  height: 1000px;
+}
+
+#address {
+  font-size: 20px;
+  position: initial;
+  margin: initial;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#numbers {
+  font-size: 20px;
+  position: initial;
+  margin: initial;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#contact_form_info {
+  display: inline-block;
+}
+
+
+
+
+}
+
+
+
+
+/* @media (min-width: 832px) and (max-width: 1214px) { */
+
+
+
+
+
+/* ---------------  MEDIA QUERIES ---------------------  */
